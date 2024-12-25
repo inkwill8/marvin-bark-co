@@ -4,14 +4,18 @@ padding: 0;
 box-sizing: border-box;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     height: 100vh;
     width: 100%;
 }
 
 header img {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     border-radius: 100%;
 }
 
@@ -24,6 +28,7 @@ header,
 
 header {
     padding: 25px;
+    align-items: center;
 }
 
 .left {
@@ -44,14 +49,35 @@ p,
 a {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 10px;
 }
 
 a{
     margin-right: 25px;
 }
 
+button {
+    padding: 8px 35px 8px 35px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+    color: #e5e7eb;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hero .left {
+    padding: 25px;
+}
+
 .placeholder {
     width: 500px;
     height: 250px;
-    background-color: lightgrey;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    margin-bottom: 50px;
 }
